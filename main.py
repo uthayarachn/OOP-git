@@ -36,3 +36,10 @@ ev_car.drive()
 ev_car.apply_brake()
 ev_car.charge()
 print(ev_car.is_moving)
+
+# สร้างออบเจกต์รถไฟฟ้า
+ev_car = ElectricCar("model 3", "tesla", 75)
+ev_car.drive()
+ev_car.apply_brake()
+ev_car.charge()
+print(ev_car.is_moving)
